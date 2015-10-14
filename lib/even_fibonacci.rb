@@ -1,4 +1,3 @@
-# Implement your procedural solution here!
 # create an array beginning with 1 and 2
 # loop through the array indexes to create the index 2 number which is three
 # break if current index position >= 4,000,000
@@ -15,5 +14,7 @@ loop do
   array.push(new_sequence_item)
   position_one += 1
   position_two += 1
-  break if position_one == 20
+  break if position_one == 21
 end
+
+puts array
